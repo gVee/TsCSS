@@ -5,7 +5,7 @@ Using `javascript` is a recommended strategy to work with.
 
 ToDo
 =====
-Demo pages
--`Slide-down menu`
--`FadeIn/fadeOut effect`
--`Tasteful options`
+Demo pages:
+- `Slide-down menu`
+- `FadeIn/fadeOut effect`
+- `Tasteful options`
