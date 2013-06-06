@@ -14,8 +14,37 @@ As we know , it is possible to put muti css selectors in DOM class attribute , l
 <div class='bold light small'></div>
 ```
 
+CSS3的 `transition` 屬性，可讓設計者操作轉場動畫，該屬性具備四個參數 : 
+- `properties` 允許的值為可量化的css屬性(width , height , border , ...etc)
+- `duration`  轉場總時間
+- `timing-function` 時間變化函數 ( Default "ease" )
+- `delay` 延遲若干秒後才開使動作
+
+一般來說，我們會這樣使用
+
+```css
+.myStyle{
+  transition-property : width;
+  transition-duration : 1;
+  transition-timing-function : ease;
+  transition-delay : 0;
+  width : 50px;
+  height:30px;
+}
+
+.myStyle:hover{
+  width : 100px;
+}
+```
+```html
+  <div class="myStyle"></div>
+```
+
 License
 =======
+Copyright 2013 Vesic.D
+
+Licensed under the Apache License, Version 2.0.
 
 ToDo
 =====
