@@ -1,9 +1,9 @@
 Intro
 =====
-**TsCSS.css** is a CSS Lib for CSS3 transition feature in a unique thinking.This can not work alone ! 
+**TsCSS.css** is a CSS Lib for CSS3 transition feature in a unique thinking.
 Using `javascript` is a recommended strategy to work with.
 
-**TsCSS.css** 是一個CSS Lib，以一種獨特的方式來使用CSS3的transition特性。他不能單獨使用，必須透過 `javascript` 搭配操作。
+**TsCSS.css** 是一個CSS Lib，以一種獨特的方式來使用CSS3的transition特性。透過 `javascript` 搭配操作可以獲得最大效果。
 
 Concept
 =======
@@ -13,6 +13,11 @@ As we know , it is possible to put muti css selectors in DOM class attribute , l
 ```html
 <div class='bold light small'></div>
 ```
+CSS3 attribute `transition` provide a way which can a  designer do transition animation via four parameters:
+- `properties` Numerical Variables in css(width , height , border , ...etc)
+- `duration`  Time during transition (in seconds)
+- `timing-function` transition timing function... ( Default "ease" )
+- `delay` delay (in seconds)
 
 CSS3的 `transition` 屬性，可讓設計者操作轉場動畫，該屬性具備四個參數 : 
 - `properties` 允許的值為可量化的css屬性(width , height , border , ...etc)
@@ -20,7 +25,9 @@ CSS3的 `transition` 屬性，可讓設計者操作轉場動畫，該屬性具�
 - `timing-function` 時間變化函數 ( Default "ease" )
 - `delay` 延遲若干秒後才開使動作
 
-一般來說，我們會這樣使用
+Usually, we perform like below:
+
+以往，我們可能以如下的方式使用這個特性：
 
 ```css
 .myStyle{
