@@ -1,3 +1,6 @@
+Table of Contents
+=================
+
 Introdution
 ===========
 **TsCSS.css** is a CSS Lib for CSS3 transition feature in a unique thinking.
@@ -99,7 +102,7 @@ so us cut **transition attributes** parameters into difference **class selectors
 
 **Javascript code**
 ```javascript
-(function(window){
+(function(document){
     var dir = 0;
     var myDemo = document.getElementsByClassName("myDemo")[0];
     var ch = function(type){
@@ -130,7 +133,7 @@ so us cut **transition attributes** parameters into difference **class selectors
     	}		  	
       	dir ++;
     },false);  
-})(window);
+})(documnt);
 ```
 **See Demo**
 [myDemo](http://codepen.io/anon/pen/eGfJA)<br>
