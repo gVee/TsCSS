@@ -72,7 +72,8 @@ so us cut **transition attributes** parameters into difference **class selectors
 }
 
 ```
-另外設置一組Demo用的樣式
+接下來，我們看一下簡單的範例：
+Now, Let's take a look ,example below:
 
 ```css
 .myDemo{
